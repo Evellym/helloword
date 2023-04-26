@@ -1,0 +1,19 @@
+// Imprimir o valor de controle usando essa parte da documentação
+Usando mapa para reformatar objetos em uma matriz
+O código a seguir pega uma matriz de objetos e cria uma nova matriz contendo os objetos reformatados recentemente.
+
+const kvArray = [
+  { key: 1, value: 10 },
+  { key: 2, value: 20 },
+  { key: 3, value: 30 },
+];
+
+const reformattedArray = kvArray.map(({ key, value }) => ({ [key]: value }));
+
+console.log(reformattedArray); // [{ 1: 10 }, { 2: 20 }, { 3: 30 }]
+console.log(kvArray);
+// [
+//   { key: 1, value: 10 },
+//   { key: 2, value: 20 },
+//   { key: 3, value: 30 }
+// ]
