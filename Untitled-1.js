@@ -50,13 +50,27 @@ class Produto {
 
 console
 
-//EXERCÍCIO 4
 class Venda {
     constructor(id, data, cliente, produto) {
         this.id = id;
         this.data = data;
         this.cliente = cliente;
-        this.produto = produto;}
+        this.produto = produto;
+        this.cpf = cpf;
+
+    venda1 = new Venda("123.456.789.01", "XXX");
+    venda2 = new Venda("123.456.789.02", "PTG");
+    console.log(venda1)
+}}
+
+//EXERCÍCIO 5
+verificarData() {
+    dataAtual = new DataTransfer()
+        if (this.data > dataAtual) {
+            console.log("Erro");
+        }}
+    
+
 
 
 }
