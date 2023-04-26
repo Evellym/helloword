@@ -29,10 +29,11 @@ console.log(notas);
 //7 map com chaves alunos e valores = notas
 const controle = [["Alisson", 0.0], ["Bianca",0.5], ["Carlos",1.0], ["Danilo",2.5], ["Looo",3.6], ["Fabyola",3.8], ["Antonio",4.0], ["Karol", 4.2], ["Pedro", 4.5], ["João",5.0], ["Maria", 6.0], ["Gabriel", 7.5], ["Camila", 8.0], ["Lucas", 8.5], ["Dhyson",9.0], ["Emilly",9.8], ["Sara",10.0]];
   console.log(controle.length);
-  
 
+const map1 = new Map()
 
-
+map1.set('Evellyn', 3)
+console.log(map1)
 /*map1.set = controle(alunos, notas);
 console.log(controle);
 */
