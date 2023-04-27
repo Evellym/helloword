@@ -1,0 +1,74 @@
+// EXERCÍCIO 1
+class Produto {
+    constructor(codigo, descricao, preco) {
+    this.codigo = codigo;
+    this.descricao = descricao;
+    this.preco = preco;}
+}
+class Cliente {
+        constructor(cpf, nome, endereco) {
+            this.cpf = cpf;
+            this.nome = nome;
+            this.endereco = endereco;}
+    }
+
+class Venda {
+    constructor(id, data, cliente, produto) {
+        this.id = id;
+        this.data = data;
+        this.cliente = cliente;
+        this.produto = produto;}
+
+//EXERCÍCIO 5
+verificarData() {
+    dataAtual = new DataTransfer()
+        if (this.data > dataAtual) {
+            console.log("Erro");
+        }}
+}    
+
+// EXERCÍCIO 2
+produto1 = new Produto("Arroz", 10.00 )
+produto2 = new Produto("Macarrão", 5.00)
+produto3 = new Produto("óleo", 8.00)
+produto4 = new Produto("Alho", 15.00)
+
+cliente1 = new Cliente("123.456.789.01", "Abascareu", "Rua Jucenas, 123")
+cliente2 = new Cliente("123.456.789.02", "Jubileu", "Rua Madeira, 54")
+
+
+//EXERCÍCIO 3
+produto1.preco = (produto1.preco*1.1).toFixed(2);
+produto2.preco = (produto1.preco*1.1).toFixed(2);
+produto3.preco = (produto1.preco*1.1).toFixed(2);
+produto4.preco = (produto1.preco*1.1).toFixed(2);
+console.table(produto1, produto2, produto3, produto4)
+//mostra ma tabelinha
+
+class Venda {
+    constructor(id, data, cliente, produto) {
+        this.id = id;
+        this.data = data;
+        this.cliente = cliente;
+        this.produto = produto;
+        this.cpf = cpf;
+
+    venda1 = new Venda("123.456.789.01", "XXX");
+    venda2 = new Venda("123.456.789.02", "PTG");
+    console.log(venda1)
+}
+}
+
+//EXERCÍCIO 5
+verificarData(); {
+    const dataAtual = new Date().toLocaleString();//.toLocaleDataString
+    console.log(dataAtual);
+    if(this.data > dataAtual) {
+        console.log("Inválida");
+
+    } else {
+        console.log("ok")
+    }
+        
+
+
