@@ -1,0 +1,19 @@
+
+/*Elabore um algoritmo em que, dada a idade de um atleta, classifique-o em uma das seguintes categorias:​
+Infantil = de 6 até 11 anos​
+Juvenil = de 12 até 17 anos​
+Adulto = 18 anos ou mais*/
+let idade = parseInt(prompt("Digite a idade do atleta: "))
+
+if (idade < 6) {
+  console.log("Atleta muito jovem para competir")
+} 
+else if (idade >= 6 && idade <= 11) {
+  console.log("Atleta na categoria Infantil")
+} 
+else if (idade >= 12 && idade <= 17) {
+  console.log("Atleta na categoria Juvenil")
+} 
+if (idade >=18) {
+  console.log("Atleta na categoria Adulto")
+}

@@ -1,0 +1,25 @@
+// algoritmo  utilize a estrutura SWITCH... CASE 
+console.log("Temos os seguintes pratos no cardápio:")
+console.log("Prato 1: Galinhada") 
+console.log("Prato 2: Estrogonofe")
+console.log("Prato 3: Lasanha")
+console.log("Prato 4: Hambúrguer e Fritas");
+
+const pedido = parseInt(prompt("Digite o número do pedido: ")) 
+switch (pedido) {
+    case 1: 
+        console.log("Galinhada")
+        break;
+        case 2: 
+            console.log("Estrogonofe")
+            break;
+            case 3:
+                console.log("Lasanha")
+                break;
+                case 4:
+                    console.log("Hambúrguer e Fritas")
+                    break;
+                    default:
+                    console.log("Desculpe, opção inválida")
+                    
+}
